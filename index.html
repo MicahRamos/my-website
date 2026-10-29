@@ -1,0 +1,345 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CarePulse AI — Precision Clinical Diagnostics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header class="hero">
+      <div class="logo">
+        <svg
+          viewBox="0 0 24 24"
+          width="28"
+          height="28"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+        </svg>
+        <span>
+          CarePulse
+          <strong class="accent">AI</strong>
+        </span>
+      </div>
+
+      <nav class="nav">
+        <button
+          class="button plans-button"
+          command="toggle-popover"
+          commandfor="menu"
+        >
+          Specialties
+          <svg viewBox="0 0 320 512" width="12" aria-hidden="true">
+            <path
+              d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"
+            />
+          </svg>
+        </button>
+        <a class="button button-outline" href="#consultation-sheet">
+          Request Consultation
+        </a>
+      </nav>
+
+      <div class="intro">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          Clinical Diagnostics v4.2 Active
+        </div>
+        <h1>Next-Gen Precision Diagnostics & Care</h1>
+        <p>
+          Transforming complex biomarker panel data, digital radiology, and
+          metabolic trends into actionable clinical insights.
+        </p>
+      </div>
+
+      <div class="invite">
+        <div class="promo">
+          <h2>Priority Intake</h2>
+          <p>
+            Book your comprehensive annual biomarker assessment for
+            <s>$299</s>
+            $149 with coverage verification.
+          </p>
+          <a href="#consultation-sheet" class="button button-solid">
+            Schedule Intake
+          </a>
+        </div>
+      </div>
+
+      <menu id="menu" class="menu" popover>
+        <li><a href="#cardiology-ai">Cardiology AI</a></li>
+        <li><a href="#radiology-imaging">Radiology & Imaging</a></li>
+        <li><a href="#biomarker-genomics">Biomarker Genomics</a></li>
+      </menu>
+    </header>
+
+    <section class="brand-sentence">
+      <h2>
+        Elevating patient outcomes through
+        <strong>Precision Diagnostics</strong>
+        and real-time care coordination.
+      </h2>
+    </section>
+
+    <section class="photos-and-quotes" id="photos-and-quotes">
+      <div class="row row-1">
+        <img
+          src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+          alt="Clinical Laboratory"
+        />
+        <blockquote class="quote">
+          <p>
+            CarePulse AI detected metabolic shifts six months before standard
+            blood panels flagged anomalies. It has redefined our preventative
+            protocols.
+          </p>
+
+          <cite>
+            <svg viewBox="0 0 496 512" width="100" class="avatar">
+              <path
+                d="M0 256c0 137 111 248 248 248s248-111 248-248S385 8 248 8 0 119 0 256zm200-48c0 17.7-14.3 32-32 32s-32-14.3-32-32 14.3-32 32-32 32 14.3 32 32zm168 25l-9.5-8.5c-14.8-13.2-46.2-13.2-61 0L288 233c-8.3 7.4-21.6.4-19.8-10.8 4-25.2 34.2-42.1 59.9-42.1S384 197 388 222.2c1.6 11-11.5 18.2-20 10.8zm-243.1 87.8C155.1 330.5 200 336 248 336s92.9-5.5 123.1-15.2c11.3-3.7 22.6 6 20.7 17.9-9.2 55-83.2 93.3-143.8 93.3s-134.5-38.3-143.8-93.3c-2-11.9 9.3-21.6 20.7-17.9z"
+              />
+            </svg>
+            <div>
+              <div class="name">Dr. Elena Rostova, MD</div>
+              <div>Chief of Internal Medicine</div>
+            </div>
+          </cite>
+        </blockquote>
+        <img
+          src="https://images.unsplash.com/photo-1516549655169-df83a0774514?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+          alt="Surgical Telemetry"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+          alt="Monitoring"
+        />
+      </div>
+
+      <div class="row row-2">
+        <img
+          src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+          alt="Digital Health"
+        />
+        <blockquote class="quote">
+          <p>
+            The real-time telemetry integration streamlined our patient intake
+            speed by 65%. It delivers clinical clarity when time is critical.
+          </p>
+
+          <cite>
+            <svg viewBox="0 0 496 512" width="100" class="avatar">
+              <path
+                d="M0 256c0 137 111 248 248 248s248-111 248-248S385 8 248 8 0 119 0 256zm200-48c0 17.7-14.3 32-32 32s-32-14.3-32-32 14.3-32 32-32 32 14.3 32 32zm168 25l-9.5-8.5c-14.8-13.2-46.2-13.2-61 0L288 233c-8.3 7.4-21.6.4-19.8-10.8 4-25.2 34.2-42.1 59.9-42.1S384 197 388 222.2c1.6 11-11.5 18.2-20 10.8zm-243.1 87.8C155.1 330.5 200 336 248 336s92.9-5.5 123.1-15.2c11.3-3.7 22.6 6 20.7 17.9-9.2 55-83.2 93.3-143.8 93.3s-134.5-38.3-143.8-93.3c-2-11.9 9.3-21.6 20.7-17.9z"
+              />
+            </svg>
+            <div>
+              <div class="name">Marcus Vance, NP</div>
+              <div>Director of Telehealth</div>
+            </div>
+          </cite>
+        </blockquote>
+        <img
+          src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+          alt="Doctor review"
+        />
+        <blockquote class="quote">
+          <p>
+            Having clear biomarker tracking giving me actionable daily summaries
+            has transformed my personal health strategy.
+          </p>
+
+          <cite>
+            <svg viewBox="0 0 496 512" width="100" class="avatar">
+              <path
+                d="M0 256c0 137 111 248 248 248s248-111 248-248S385 8 248 8 0 119 0 256zm200-48c0 17.7-14.3 32-32 32s-32-14.3-32-32 14.3-32 32-32 32 14.3 32 32zm168 25l-9.5-8.5c-14.8-13.2-46.2-13.2-61 0L288 233c-8.3 7.4-21.6.4-19.8-10.8 4-25.2 34.2-42.1 59.9-42.1S384 197 388 222.2c1.6 11-11.5 18.2-20 10.8zm-243.1 87.8C155.1 330.5 200 336 248 336s92.9-5.5 123.1-15.2c11.3-3.7 22.6 6 20.7 17.9-9.2 55-83.2 93.3-143.8 93.3s-134.5-38.3-143.8-93.3c-2-11.9 9.3-21.6 20.7-17.9z"
+              />
+            </svg>
+            <div>
+              <div class="name">Sarah Jenkins</div>
+              <div>Patient</div>
+            </div>
+          </cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- CORE DIAGNOSTIC SPECIALTIES SECTION -->
+    <section class="specialties-info-section">
+      <div class="specialties-container">
+        <h2>Core Diagnostic Specialties</h2>
+        <p class="section-subtitle">
+          Explore our advanced clinical practice areas before booking your
+          consultation.
+        </p>
+
+        <!-- Specialty 1: Cardiology AI -->
+        <div class="specialty-card" id="cardiology-ai">
+          <div class="specialty-content">
+            <span class="specialty-tag">Cardiology</span>
+            <h3>Cardiology AI</h3>
+            <p>
+              Continuous ECG waveform tracking, AI-assisted arrhythmia mapping,
+              and cardiovascular stress diagnostics designed for early detection
+              of structural anomalies.
+            </p>
+            <a href="cardiology.html" class="link-btn">Explore Cardiology →</a>
+          </div>
+          <div class="specialty-image-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
+              alt="Cardiology Telemetry Screen"
+            />
+          </div>
+        </div>
+
+        <!-- Specialty 2: Radiology & Imaging -->
+        <div class="specialty-card" id="radiology-imaging">
+          <div class="specialty-content">
+            <span class="specialty-tag">Radiology</span>
+            <h3>Radiology & Imaging</h3>
+            <p>
+              High-resolution volumetric magnetic resonance imaging featuring
+              neural deep-learning algorithms for real-time tissue analysis and
+              anomaly flagging.
+            </p>
+            <a href="radiology.html" class="link-btn">Explore Radiology →</a>
+          </div>
+          <div class="specialty-image-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1516549655169-df83a0774514?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
+              alt="Radiology Imaging Scan"
+            />
+          </div>
+        </div>
+
+        <!-- Specialty 3: Biomarker Genomics -->
+        <div class="specialty-card" id="biomarker-genomics">
+          <div class="specialty-content">
+            <span class="specialty-tag">Genomics</span>
+            <h3>Biomarker Genomics</h3>
+            <p>
+              Deep molecular profiling tracking over 100 physiological biomarkers
+              spanning metabolic, hormonal, and systemic longevity indicators.
+            </p>
+            <a href="genomics.html" class="link-btn">Explore Genomics →</a>
+          </div>
+          <div class="specialty-image-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
+              alt="Genomics Laboratory"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONSULTATION SHEET -->
+    <section class="consultation-section" id="consultation-sheet">
+      <div class="consultation-card">
+        <div class="consultation-header">
+          <h2>Clinical Consultation Request</h2>
+          <p>
+            Please provide your information below to schedule your diagnostic
+            intake session.
+          </p>
+        </div>
+
+        <form
+          id="consultation-form"
+          class="consultation-form"
+          onsubmit="handleFormSubmit(event)"
+        >
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input
+              type="text"
+              id="fullName"
+              placeholder="e.g. Dr. Eleanor Vance"
+              required
+            />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="dob">Date of Birth</label>
+              <input type="date" id="dob" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="eleanor@example.com"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                placeholder="+1 (555) 000-0000"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="location">Location / Preferred Clinic</label>
+              <input
+                type="text"
+                id="location"
+                placeholder="e.g. New York, NY"
+                required
+              />
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            class="button button-solid submit-consultation-btn"
+          >
+            Submit Consultation Request
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <img
+        src="https://images.unsplash.com/photo-1551076805-e1869033e561?crop=entropy&srgb&fm=jpg&q=85"
+        alt="Facility"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?crop=entropy&srgb&fm=jpg&q=85"
+        alt="Scanning"
+      />
+      <p>Your Health in Focus.</p>
+    </footer>
+
+    <!-- Form Reset Script Handler -->
+    <script>
+      function handleFormSubmit(event) {
+        event.preventDefault();
+        alert('Consultation request submitted successfully!');
+        document.getElementById('consultation-form').reset();
+      }
+    </script>
+  </body>
+</html>
